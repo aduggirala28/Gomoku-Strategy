@@ -2,11 +2,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Student.h"
 
 
 // assume that this is player 1, X
-int* getMove(int board[][SIZE], int *move)
+int* move(int board[][SIZE], int *move)
 { int i,j;
 int position[2]={-1};
 int self=1;
